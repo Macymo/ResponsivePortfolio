@@ -3,7 +3,11 @@
     box-sizing: border-box;
 }
 
-body, html {
+html {
+    background-color: rosybrown;
+}
+
+body {
     background-color: rosybrown;
     min-height: 100%;
     background-position: center;
@@ -42,7 +46,6 @@ ul {
 
 /* Footer CSS */
 footer {
-    position: sticky;
     font-weight: bolder;
     clear: both;
     bottom: 0%;

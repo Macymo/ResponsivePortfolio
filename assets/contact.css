@@ -3,9 +3,11 @@
     box-sizing: border-box;
 }
 
-html, body {
+body, html {
     background-color: rosybrown;
     min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 a.navbar-brand {
