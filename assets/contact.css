@@ -1,11 +1,14 @@
-/* CSS for index.html */
+/* contact.html */
 * {
     box-sizing: border-box;
 }
 
-/* Background image */
-html, body {
+body, html {
     background-color: rosybrown;
+    min-height: 100%;
+    background-position: center;
+    background-image: url("../assets/ABQ.jpg");
+    background-size: cover;
 }
 
 a.navbar-brand {
@@ -13,8 +16,11 @@ a.navbar-brand {
 }
 
 nav {
-    
     font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -22,27 +28,16 @@ ul {
     font-size: 20px;
 }
 
-#mainCard {
-    margin-left: 15%;
-}
-
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-p {
-    font-weight: bolder;
-    font-size: 20px;
+/* CSS for lables */
+.form-row {
     font-family: fantasy;
-}
-
-/* Margins for Images */
-.img-thumbnail {
-    margin: 10%;
+    font-size: 20px;
+    color: green;
 }
 
 /* Footer CSS */
 footer {
+    position: fixed;
     font-weight: bolder;
     color: black;
     clear: both;
@@ -59,6 +54,3 @@ footer {
     text-align: center;
     font-size: 10px;
 }
-
-
-

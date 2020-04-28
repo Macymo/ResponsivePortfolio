@@ -1,16 +1,22 @@
-/* CSS for index.html, portfolio.html, contact.html */
-
+/* CSS for portfolio.html */
 * {
     box-sizing: border-box;
 }
 
-/* Background image */
-body {
-    width: 100%;
-    margin-bottom: 25px;
+body, html {
+    background-color: rosybrown;
+    min-height: 100%;
+    background-position: center;
     background-image: url("../assets/ABQ.jpg");
     background-size: cover;
-    background-position: center;
+}
+
+#mainContainer {
+    margin-left: 15%;
+}
+
+#portfolio {
+    margin-left: 40%;
 }
 
 a.navbar-brand {
@@ -18,8 +24,11 @@ a.navbar-brand {
 }
 
 nav {
-    
     font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -27,45 +36,27 @@ ul {
     font-size: 20px;
 }
 
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-p {
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: fantasy;
-}
-
-/* Margins for Images */
-.img-thumbnail {
-    margin: 10%;
-}
-
-/* CSS for lables in contact.html */
-.form-row {
-    font-size: 20px;
-    color: green;
+#wwcImg {
+    margin-top: 10%;
 }
 
 /* Footer CSS */
 footer {
-    color: white;
-    font-size: 15px;
+    font-weight: bolder;
     clear: both;
     bottom: 0%;
     margin-top: 25%;
 }
 
 #mm {
+    font-size: 20px;
+    color: white;
     text-align: center;
     font-family: fantasy;
 }
 
 #year {
+    color: white;
     text-align: center;
     font-size: 10px;
 }
-
-
-
