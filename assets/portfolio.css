@@ -42,6 +42,7 @@ ul {
 
 /* Footer CSS */
 footer {
+    position: sticky;
     font-weight: bolder;
     clear: both;
     bottom: 0%;

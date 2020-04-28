@@ -3,12 +3,9 @@
     box-sizing: border-box;
 }
 
-body, html {
+html, body {
     background-color: rosybrown;
     min-height: 100%;
-    background-position: center;
-    background-image: url("../assets/ABQ.jpg");
-    background-size: cover;
 }
 
 a.navbar-brand {
@@ -24,6 +21,10 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#contact{
+    margin-left: 40%;
+}
+
 ul {
     font-size: 20px;
 }
@@ -32,12 +33,17 @@ ul {
 .form-row {
     font-family: fantasy;
     font-size: 20px;
-    color: green;
+    color: darkolivegreen;
+}
+
+#submitBtn {
+    background-color: darkolivegreen;
+    outline: darkolivegreen;
+    border-color: darkslategray;
 }
 
 /* Footer CSS */
 footer {
-    position: fixed;
     font-weight: bolder;
     color: black;
     clear: both;

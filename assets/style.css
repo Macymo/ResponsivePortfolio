@@ -23,6 +23,7 @@ ul {
 }
 
 #mainCard {
+    margin-top: 5%;
     margin-left: 15%;
 }
 
@@ -43,6 +44,7 @@ p {
 
 /* Footer CSS */
 footer {
+    position: sticky;
     font-weight: bolder;
     color: black;
     clear: both;
