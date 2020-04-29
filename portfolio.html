@@ -31,36 +31,56 @@
             </div>
     </nav>
 
-    <!-- Grid Row 1 ---I originally had this as <header> rather than <div> but it messed up my margings for the sections-->
-    <div class="container" id="mainContainer">
+    <!-- Grid Row 1 --->
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
                 <h1 id="portfolio">Portfolio</h1>
+                <p>Click any of the projects below to view</p>
                 <hr>
             </div>
         </div>
-
-    <!-- Row 2 --->
-        <section class="row">
-            <div class="col-sm-4">
-                <a href= "https://github.com/Macymo">
-                    <img src="assets/GitHub.png" class= "img-thumbnail" alt="My GitHub">
-                </a>
+        <!-- Grid Row 2-->
+        <section class="row" id="connectCard">
+            <div class="col-md-3">
+                <div class="card border-secondary mb-3" style="max-width: 18rem;" id="card">
+                    <div class="card-header" id="cardHeader">Connect With Me</div>
+                    <div class="card-body text-secondary" id="cardBody">
+                        <a href= "https://github.com/Macymo" target="_blank">
+                            <img src="assets/GitHub.png" class= "img-thumbnail" alt="My GitHub">
+                        </a>
+                        <a href= "https://www.linkedin.com/in/macy-molina-8a14b71a2/" target="_blank">
+                            <img src="assets/LinkedIn.png" class= "img-thumbnail" alt="My Linkedin">
+                        </a>
+                    <p id="resume"> View my resume here:
+                        <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ad168b084-51f8-4bfc-90de-301d7b27d246" target="_blank">
+                            https://documentcloud.adobe.com/link/track?...</a>
+                    </p>
+                    </div>
+                </div>
             </div>
-      
             <div class="col-sm-4">
-                <a href= "https://www.linkedin.com/in/macy-molina-8a14b71a2/">
-                    <img src="assets/LinkedIn.png" class= "img-thumbnail" alt="My Linkedin">
-                </a>
+                <a href= "https://macymo.github.io/WeatherDashboard/" target="_blank">
+                    <img src="assets/WeatherDashboard.png" class= "img-thumbnail" alt="WeatherDashboardProject">
+                </a>    
+            </div>    
+            <div class="col-sm-4">
+                <a href= "https://macymo.github.io/WorkDayScheduler/" target="_blank">
+                    <img src="assets/WorkDayScheduler.png" class= "img-thumbnail" alt="SchedulerProject">
+                </a> 
             </div>
         </section>
-
-    <!-- Row 3 --->
+        <!-- Row 3 --->
         <section class="row">
-            <div class="col-sm-4" class="wwc">
-                <a href= "https://www.womenwhocode.com/">
-                    <img id="wwcImg" src="assets/WWC.jpeg" class= "img-thumbnail" alt="Women Who Code">
-                </a>
+            <div class="col-sm-4">
+                <a href= "https://macymo.github.io/PasswordGenerator/" target="_blank">
+                    <img src="assets/PasswordGen..png" class= "img-thumbnail" alt="PasswordGenerator" id="projectImg">
+                </a> 
+            </div>
+            <div class="col-sm-4">
+                <a href= "https://cheryld433.github.io/Project-1/" target="_blank">
+                    <img src="assets/GroupProjectHomemade.png" class= "img-thumbnail" alt="GroupProject" id="projectImg">
+                </a> 
             </div>
         </section>
 
